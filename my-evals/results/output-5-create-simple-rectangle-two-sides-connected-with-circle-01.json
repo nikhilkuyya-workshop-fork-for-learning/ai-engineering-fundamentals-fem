@@ -1,0 +1,3951 @@
+{
+  "text": "Done — I created a simple flowchart with Start → Process → End boxes.\n\nIf you want, I can also:\n- make it horizontal instead of vertical\n- add arrows with labels\n- style it with colors\n- add more steps or decision diamonds",
+  "elements": [
+    {
+      "id": "rect-start",
+      "type": "rectangle",
+      "x": 80,
+      "y": 80,
+      "width": 180,
+      "height": 70,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "points": [],
+      "startBinding": {
+        "elementId": "text-start",
+        "focus": 0.5,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "text-start",
+        "focus": 0.5,
+        "gap": 0
+      }
+    },
+    {
+      "id": "text-start",
+      "type": "text",
+      "x": 125,
+      "y": 98,
+      "width": 90,
+      "height": 30,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "text": "Start",
+      "fontSize": 22,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "points": [],
+      "startBinding": {
+        "elementId": "rect-start",
+        "focus": 0.5,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "rect-start",
+        "focus": 0.5,
+        "gap": 0
+      }
+    },
+    {
+      "id": "rect-process",
+      "type": "rectangle",
+      "x": 80,
+      "y": 190,
+      "width": 180,
+      "height": 70,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "points": [],
+      "startBinding": {
+        "elementId": "text-process",
+        "focus": 0.5,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "text-process",
+        "focus": 0.5,
+        "gap": 0
+      }
+    },
+    {
+      "id": "text-process",
+      "type": "text",
+      "x": 120,
+      "y": 208,
+      "width": 100,
+      "height": 30,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "text": "Process",
+      "fontSize": 22,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "points": [],
+      "startBinding": {
+        "elementId": "rect-process",
+        "focus": 0.5,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "rect-process",
+        "focus": 0.5,
+        "gap": 0
+      }
+    },
+    {
+      "id": "rect-end",
+      "type": "rectangle",
+      "x": 80,
+      "y": 300,
+      "width": 180,
+      "height": 70,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "points": [],
+      "startBinding": {
+        "elementId": "text-end",
+        "focus": 0.5,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "text-end",
+        "focus": 0.5,
+        "gap": 0
+      }
+    },
+    {
+      "id": "text-end",
+      "type": "text",
+      "x": 130,
+      "y": 318,
+      "width": 80,
+      "height": 30,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "text": "End",
+      "fontSize": 22,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "points": [],
+      "startBinding": {
+        "elementId": "rect-end",
+        "focus": 0.5,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "rect-end",
+        "focus": 0.5,
+        "gap": 0
+      }
+    },
+    {
+      "id": "arrow-1",
+      "type": "arrow",
+      "x": 170,
+      "y": 150,
+      "width": 0,
+      "height": 40,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-start",
+        "focus": 0.75,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "rect-process",
+        "focus": 0.25,
+        "gap": 0
+      }
+    },
+    {
+      "id": "arrow-2",
+      "type": "arrow",
+      "x": 170,
+      "y": 260,
+      "width": 0,
+      "height": 40,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-process",
+        "focus": 0.75,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "rect-end",
+        "focus": 0.25,
+        "gap": 0
+      }
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 0,
+      "model": {
+        "provider": "openai.responses",
+        "modelId": "gpt-5.4-mini"
+      },
+      "content": [
+        {
+          "type": "tool-call",
+          "toolCallId": "call_w6qNkfdIvmgBZvmh1RQmGOSy",
+          "toolName": "generateDiagram",
+          "input": {
+            "elements": [
+              {
+                "id": "rect-start",
+                "type": "rectangle",
+                "x": 80,
+                "y": 80,
+                "width": 180,
+                "height": 70,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ffffff",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "text-start",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "text-start",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "text-start",
+                "type": "text",
+                "x": 125,
+                "y": 98,
+                "width": 90,
+                "height": 30,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "Start",
+                "fontSize": 22,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-start",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-start",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "rect-process",
+                "type": "rectangle",
+                "x": 80,
+                "y": 190,
+                "width": 180,
+                "height": 70,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ffffff",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "text-process",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "text-process",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "text-process",
+                "type": "text",
+                "x": 120,
+                "y": 208,
+                "width": 100,
+                "height": 30,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "Process",
+                "fontSize": 22,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "rect-end",
+                "type": "rectangle",
+                "x": 80,
+                "y": 300,
+                "width": 180,
+                "height": 70,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ffffff",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "text-end",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "text-end",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "text-end",
+                "type": "text",
+                "x": 130,
+                "y": 318,
+                "width": 80,
+                "height": 30,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "End",
+                "fontSize": 22,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-end",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-end",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "arrow-1",
+                "type": "arrow",
+                "x": 170,
+                "y": 150,
+                "width": 0,
+                "height": 40,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    40
+                  ]
+                ],
+                "startBinding": {
+                  "elementId": "rect-start",
+                  "focus": 0.75,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.25,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "arrow-2",
+                "type": "arrow",
+                "x": 170,
+                "y": 260,
+                "width": 0,
+                "height": 40,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    40
+                  ]
+                ],
+                "startBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.75,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-end",
+                  "focus": 0.25,
+                  "gap": 0
+                }
+              }
+            ]
+          },
+          "providerMetadata": {
+            "openai": {
+              "itemId": "fc_0405406f6dafe2e10069d4db5b38cc819797bbf2dc78770576"
+            }
+          }
+        },
+        {
+          "type": "tool-result",
+          "toolCallId": "call_w6qNkfdIvmgBZvmh1RQmGOSy",
+          "toolName": "generateDiagram",
+          "input": {
+            "elements": [
+              {
+                "id": "rect-start",
+                "type": "rectangle",
+                "x": 80,
+                "y": 80,
+                "width": 180,
+                "height": 70,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ffffff",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "text-start",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "text-start",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "text-start",
+                "type": "text",
+                "x": 125,
+                "y": 98,
+                "width": 90,
+                "height": 30,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "Start",
+                "fontSize": 22,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-start",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-start",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "rect-process",
+                "type": "rectangle",
+                "x": 80,
+                "y": 190,
+                "width": 180,
+                "height": 70,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ffffff",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "text-process",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "text-process",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "text-process",
+                "type": "text",
+                "x": 120,
+                "y": 208,
+                "width": 100,
+                "height": 30,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "Process",
+                "fontSize": 22,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "rect-end",
+                "type": "rectangle",
+                "x": 80,
+                "y": 300,
+                "width": 180,
+                "height": 70,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ffffff",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "text-end",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "text-end",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "text-end",
+                "type": "text",
+                "x": 130,
+                "y": 318,
+                "width": 80,
+                "height": 30,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "End",
+                "fontSize": 22,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-end",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-end",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "arrow-1",
+                "type": "arrow",
+                "x": 170,
+                "y": 150,
+                "width": 0,
+                "height": 40,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    40
+                  ]
+                ],
+                "startBinding": {
+                  "elementId": "rect-start",
+                  "focus": 0.75,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.25,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "arrow-2",
+                "type": "arrow",
+                "x": 170,
+                "y": 260,
+                "width": 0,
+                "height": 40,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    40
+                  ]
+                ],
+                "startBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.75,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-end",
+                  "focus": 0.25,
+                  "gap": 0
+                }
+              }
+            ]
+          },
+          "output": {
+            "elements": [
+              {
+                "id": "rect-start",
+                "type": "rectangle",
+                "x": 80,
+                "y": 80,
+                "width": 180,
+                "height": 70,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ffffff",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "text-start",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "text-start",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "text-start",
+                "type": "text",
+                "x": 125,
+                "y": 98,
+                "width": 90,
+                "height": 30,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "Start",
+                "fontSize": 22,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-start",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-start",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "rect-process",
+                "type": "rectangle",
+                "x": 80,
+                "y": 190,
+                "width": 180,
+                "height": 70,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ffffff",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "text-process",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "text-process",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "text-process",
+                "type": "text",
+                "x": 120,
+                "y": 208,
+                "width": 100,
+                "height": 30,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "Process",
+                "fontSize": 22,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "rect-end",
+                "type": "rectangle",
+                "x": 80,
+                "y": 300,
+                "width": 180,
+                "height": 70,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ffffff",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "text-end",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "text-end",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "text-end",
+                "type": "text",
+                "x": 130,
+                "y": 318,
+                "width": 80,
+                "height": 30,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "End",
+                "fontSize": 22,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-end",
+                  "focus": 0.5,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-end",
+                  "focus": 0.5,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "arrow-1",
+                "type": "arrow",
+                "x": 170,
+                "y": 150,
+                "width": 0,
+                "height": 40,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    40
+                  ]
+                ],
+                "startBinding": {
+                  "elementId": "rect-start",
+                  "focus": 0.75,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.25,
+                  "gap": 0
+                }
+              },
+              {
+                "id": "arrow-2",
+                "type": "arrow",
+                "x": 170,
+                "y": 260,
+                "width": 0,
+                "height": 40,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "transparent",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    40
+                  ]
+                ],
+                "startBinding": {
+                  "elementId": "rect-process",
+                  "focus": 0.75,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-end",
+                  "focus": 0.25,
+                  "gap": 0
+                }
+              }
+            ]
+          },
+          "dynamic": false,
+          "providerMetadata": {
+            "openai": {
+              "itemId": "fc_0405406f6dafe2e10069d4db5b38cc819797bbf2dc78770576"
+            }
+          }
+        }
+      ],
+      "finishReason": "tool-calls",
+      "usage": {
+        "inputTokens": 863,
+        "inputTokenDetails": {
+          "noCacheTokens": 863,
+          "cacheReadTokens": 0
+        },
+        "outputTokens": 1022,
+        "outputTokenDetails": {
+          "textTokens": 1022,
+          "reasoningTokens": 0
+        },
+        "totalTokens": 1885,
+        "raw": {
+          "input_tokens": 863,
+          "input_tokens_details": {
+            "cached_tokens": 0
+          },
+          "output_tokens": 1022,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "reasoningTokens": 0,
+        "cachedInputTokens": 0
+      },
+      "warnings": [],
+      "request": {
+        "body": {
+          "model": "gpt-5.4-mini",
+          "input": [
+            {
+              "role": "developer",
+              "content": "You are a diagram design assistant. You help users create and modify diagrams on an Excalidraw canvas.\n\nWhen the user asks you to create a diagram, use the generateDiagram tool to produce Excalidraw elements.\n\nGuidelines for generating diagrams:\n- Give each element a unique id (e.g. \"rect-1\", \"text-1\", \"arrow-1\")\n- Position elements with reasonable spacing (at least 20px gap between elements)\n- Use rectangles for boxes/containers, ellipses for circles, diamonds for decision points\n- Add text labels inside or near shapes\n- Connect related elements with arrows\n- Use a clean layout: left to right or top to bottom\n- Default to strokeColor \"#1e1e1e\" and backgroundColor \"transparent\"\n- Set roughness to 1 for a hand-drawn look\n\nWhen the user asks to modify an element, use the modifyDiagram tool with the element's id."
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "input_text",
+                  "text": "Draw a start, process and end boxes flowchart"
+                }
+              ]
+            }
+          ],
+          "tools": [
+            {
+              "type": "function",
+              "name": "generateDiagram",
+              "description": "Generate a complete diagram as an array of Excalidraw elements. Use this when the user asks you to create, draw, or design a new diagram. Return all elements needed including shapes, text labels, and arrows/lines connecting them. Position elements with x,y coordinates and give each a unique id.",
+              "parameters": {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "type": "object",
+                "properties": {
+                  "elements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Unique identifier"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "rectangle",
+                            "ellipse",
+                            "diamond",
+                            "text",
+                            "arrow",
+                            "line"
+                          ]
+                        },
+                        "x": {
+                          "type": "number",
+                          "description": "X position"
+                        },
+                        "y": {
+                          "type": "number",
+                          "description": "Y position"
+                        },
+                        "width": {
+                          "type": "number",
+                          "description": "Width"
+                        },
+                        "height": {
+                          "type": "number",
+                          "description": "Height"
+                        },
+                        "strokeColor": {
+                          "default": "#1e1e1e",
+                          "description": "Stroke color (hex)",
+                          "type": "string"
+                        },
+                        "backgroundColor": {
+                          "default": "transparent",
+                          "description": "Fill color",
+                          "type": "string"
+                        },
+                        "fillStyle": {
+                          "default": "solid",
+                          "type": "string",
+                          "enum": [
+                            "solid",
+                            "hachure",
+                            "cross-hatch"
+                          ]
+                        },
+                        "strokeWidth": {
+                          "default": 2,
+                          "type": "number"
+                        },
+                        "roughness": {
+                          "default": 1,
+                          "description": "0 for clean, 1 for sketchy",
+                          "type": "number"
+                        },
+                        "opacity": {
+                          "default": 100,
+                          "type": "number"
+                        },
+                        "text": {
+                          "description": "Text content (for text elements)",
+                          "type": "string"
+                        },
+                        "fontSize": {
+                          "default": 20,
+                          "type": "number"
+                        },
+                        "fontFamily": {
+                          "default": 1,
+                          "description": "1=Virgil, 2=Helvetica, 3=Cascadia",
+                          "type": "number"
+                        },
+                        "textAlign": {
+                          "default": "center",
+                          "type": "string",
+                          "enum": [
+                            "left",
+                            "center",
+                            "right"
+                          ]
+                        },
+                        "points": {
+                          "description": "Array of [x,y] points (for arrow/line elements). Each point is a two number array.",
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        },
+                        "startBinding": {
+                          "description": "Bind arrow start to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "endBinding": {
+                          "description": "Bind arrow end to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "type",
+                        "x",
+                        "y",
+                        "width",
+                        "height"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Array of Excalidraw elements that make up the diagram"
+                  }
+                },
+                "required": [
+                  "elements"
+                ],
+                "additionalProperties": false
+              }
+            },
+            {
+              "type": "function",
+              "name": "modifyDiagram",
+              "description": "Modify an existing element on the canvas by id. Pass null for any field you don't want to change. The element id must come from the current canvas state.",
+              "parameters": {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "type": "object",
+                "properties": {
+                  "elementId": {
+                    "type": "string",
+                    "description": "The id of the element to modify"
+                  },
+                  "updates": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New x position, or null"
+                      },
+                      "y": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New y position, or null"
+                      },
+                      "width": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New width, or null"
+                      },
+                      "height": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New height, or null"
+                      },
+                      "text": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New label or text content, or null"
+                      },
+                      "fontSize": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "textAlign": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "left",
+                              "center",
+                              "right"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex stroke color, or null"
+                      },
+                      "backgroundColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex fill color, or null"
+                      },
+                      "fillStyle": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "solid",
+                              "hachure",
+                              "cross-hatch"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeWidth": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "roughness": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "opacity": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "x",
+                      "y",
+                      "width",
+                      "height",
+                      "text",
+                      "fontSize",
+                      "textAlign",
+                      "strokeColor",
+                      "backgroundColor",
+                      "fillStyle",
+                      "strokeWidth",
+                      "roughness",
+                      "opacity"
+                    ],
+                    "description": "Fields to change. Set any field you don't want to touch to null.",
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "elementId",
+                  "updates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          ],
+          "tool_choice": "auto"
+        }
+      },
+      "response": {
+        "id": "resp_0405406f6dafe2e10069d4db5abf548197bf3efc293a91762f",
+        "timestamp": "2026-04-07T10:24:26.000Z",
+        "modelId": "gpt-5.4-mini-2026-03-17",
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "9e885295df0f3bda-BOM",
+          "connection": "keep-alive",
+          "content-encoding": "br",
+          "content-type": "application/json",
+          "date": "Tue, 07 Apr 2026 10:24:33 GMT",
+          "openai-organization": "user-9uuazzwi58e0ff8zqjhiz8uw",
+          "openai-processing-ms": "6287",
+          "openai-project": "proj_VDElpr264ycX3uszrF0xz43q",
+          "openai-version": "2020-10-01",
+          "server": "cloudflare",
+          "set-cookie": "__cf_bm=NC4RsBHAsrTpYnolmm10d8c5IqVtFtzRixfeeYjVwQY-1775557466.532159-1.0.1.1-tK3X.mmukDnVRVRPm_g1fUX4pAqVcWemtqZ2IYFYeKEDnvMeVz4K8DC0IzYjXvSBFaPGdFToNtjQ0odS99SRIYyTw5JePVR.mMP5uTnzsYG0Xw4y1tF.vgroNTyybjmn; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Tue, 07 Apr 2026 10:54:33 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "x-content-type-options": "nosniff",
+          "x-ratelimit-limit-requests": "500",
+          "x-ratelimit-limit-tokens": "200000",
+          "x-ratelimit-remaining-requests": "499",
+          "x-ratelimit-remaining-tokens": "199427",
+          "x-ratelimit-reset-requests": "120ms",
+          "x-ratelimit-reset-tokens": "171ms",
+          "x-request-id": "req_4d5a94a1db2744aabfc853e92628b22f"
+        },
+        "body": {
+          "id": "resp_0405406f6dafe2e10069d4db5abf548197bf3efc293a91762f",
+          "object": "response",
+          "created_at": 1775557466,
+          "status": "completed",
+          "background": false,
+          "billing": {
+            "payer": "developer"
+          },
+          "completed_at": 1775557472,
+          "error": null,
+          "frequency_penalty": 0,
+          "incomplete_details": null,
+          "instructions": null,
+          "max_output_tokens": null,
+          "max_tool_calls": null,
+          "model": "gpt-5.4-mini-2026-03-17",
+          "output": [
+            {
+              "id": "fc_0405406f6dafe2e10069d4db5b38cc819797bbf2dc78770576",
+              "type": "function_call",
+              "status": "completed",
+              "arguments": "{\"elements\":[{\"id\":\"rect-start\",\"type\":\"rectangle\",\"x\":80,\"y\":80,\"width\":180,\"height\":70,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"#ffffff\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{ \"elementId\":\"text-start\",\"focus\":0.5,\"gap\":0},\"endBinding\":{ \"elementId\":\"text-start\",\"focus\":0.5,\"gap\":0}},{\"id\":\"text-start\",\"type\":\"text\",\"x\":125,\"y\":98,\"width\":90,\"height\":30,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"Start\",\"fontSize\":22,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{ \"elementId\":\"rect-start\",\"focus\":0.5,\"gap\":0},\"endBinding\":{ \"elementId\":\"rect-start\",\"focus\":0.5,\"gap\":0}},{\"id\":\"rect-process\",\"type\":\"rectangle\",\"x\":80,\"y\":190,\"width\":180,\"height\":70,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"#ffffff\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{ \"elementId\":\"text-process\",\"focus\":0.5,\"gap\":0},\"endBinding\":{ \"elementId\":\"text-process\",\"focus\":0.5,\"gap\":0}},{\"id\":\"text-process\",\"type\":\"text\",\"x\":120,\"y\":208,\"width\":100,\"height\":30,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"Process\",\"fontSize\":22,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{ \"elementId\":\"rect-process\",\"focus\":0.5,\"gap\":0},\"endBinding\":{ \"elementId\":\"rect-process\",\"focus\":0.5,\"gap\":0}},{\"id\":\"rect-end\",\"type\":\"rectangle\",\"x\":80,\"y\":300,\"width\":180,\"height\":70,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"#ffffff\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{ \"elementId\":\"text-end\",\"focus\":0.5,\"gap\":0},\"endBinding\":{ \"elementId\":\"text-end\",\"focus\":0.5,\"gap\":0}},{\"id\":\"text-end\",\"type\":\"text\",\"x\":130,\"y\":318,\"width\":80,\"height\":30,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"End\",\"fontSize\":22,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{ \"elementId\":\"rect-end\",\"focus\":0.5,\"gap\":0},\"endBinding\":{ \"elementId\":\"rect-end\",\"focus\":0.5,\"gap\":0}},{\"id\":\"arrow-1\",\"type\":\"arrow\",\"x\":170,\"y\":150,\"width\":0,\"height\":40,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[[0,0],[0,40]],\"startBinding\":{\"elementId\":\"rect-start\",\"focus\":0.75,\"gap\":0},\"endBinding\":{\"elementId\":\"rect-process\",\"focus\":0.25,\"gap\":0}},{\"id\":\"arrow-2\",\"type\":\"arrow\",\"x\":170,\"y\":260,\"width\":0,\"height\":40,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[[0,0],[0,40]],\"startBinding\":{\"elementId\":\"rect-process\",\"focus\":0.75,\"gap\":0},\"endBinding\":{\"elementId\":\"rect-end\",\"focus\":0.25,\"gap\":0}}]}",
+              "call_id": "call_w6qNkfdIvmgBZvmh1RQmGOSy",
+              "name": "generateDiagram"
+            }
+          ],
+          "parallel_tool_calls": true,
+          "presence_penalty": 0,
+          "previous_response_id": null,
+          "prompt_cache_key": null,
+          "prompt_cache_retention": null,
+          "reasoning": {
+            "effort": "none",
+            "summary": null
+          },
+          "safety_identifier": null,
+          "service_tier": "default",
+          "store": true,
+          "temperature": 1,
+          "text": {
+            "format": {
+              "type": "text"
+            },
+            "verbosity": "medium"
+          },
+          "tool_choice": "auto",
+          "tools": [
+            {
+              "type": "function",
+              "description": "Generate a complete diagram as an array of Excalidraw elements. Use this when the user asks you to create, draw, or design a new diagram. Return all elements needed including shapes, text labels, and arrows/lines connecting them. Position elements with x,y coordinates and give each a unique id.",
+              "name": "generateDiagram",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "elements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Unique identifier"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "rectangle",
+                            "ellipse",
+                            "diamond",
+                            "text",
+                            "arrow",
+                            "line"
+                          ]
+                        },
+                        "x": {
+                          "type": "number",
+                          "description": "X position"
+                        },
+                        "y": {
+                          "type": "number",
+                          "description": "Y position"
+                        },
+                        "width": {
+                          "type": "number",
+                          "description": "Width"
+                        },
+                        "height": {
+                          "type": "number",
+                          "description": "Height"
+                        },
+                        "strokeColor": {
+                          "default": "#1e1e1e",
+                          "description": "Stroke color (hex)",
+                          "type": "string"
+                        },
+                        "backgroundColor": {
+                          "default": "transparent",
+                          "description": "Fill color",
+                          "type": "string"
+                        },
+                        "fillStyle": {
+                          "default": "solid",
+                          "type": "string",
+                          "enum": [
+                            "solid",
+                            "hachure",
+                            "cross-hatch"
+                          ]
+                        },
+                        "strokeWidth": {
+                          "default": 2,
+                          "type": "number"
+                        },
+                        "roughness": {
+                          "default": 1,
+                          "description": "0 for clean, 1 for sketchy",
+                          "type": "number"
+                        },
+                        "opacity": {
+                          "default": 100,
+                          "type": "number"
+                        },
+                        "text": {
+                          "description": "Text content (for text elements)",
+                          "type": "string"
+                        },
+                        "fontSize": {
+                          "default": 20,
+                          "type": "number"
+                        },
+                        "fontFamily": {
+                          "default": 1,
+                          "description": "1=Virgil, 2=Helvetica, 3=Cascadia",
+                          "type": "number"
+                        },
+                        "textAlign": {
+                          "default": "center",
+                          "type": "string",
+                          "enum": [
+                            "left",
+                            "center",
+                            "right"
+                          ]
+                        },
+                        "points": {
+                          "description": "Array of [x,y] points (for arrow/line elements). Each point is a two number array.",
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        },
+                        "startBinding": {
+                          "description": "Bind arrow start to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "endBinding": {
+                          "description": "Bind arrow end to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "type",
+                        "x",
+                        "y",
+                        "width",
+                        "height",
+                        "strokeColor",
+                        "backgroundColor",
+                        "fillStyle",
+                        "strokeWidth",
+                        "roughness",
+                        "opacity",
+                        "text",
+                        "fontSize",
+                        "fontFamily",
+                        "textAlign",
+                        "points",
+                        "startBinding",
+                        "endBinding"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Array of Excalidraw elements that make up the diagram"
+                  }
+                },
+                "required": [
+                  "elements"
+                ],
+                "additionalProperties": false
+              },
+              "strict": true
+            },
+            {
+              "type": "function",
+              "description": "Modify an existing element on the canvas by id. Pass null for any field you don't want to change. The element id must come from the current canvas state.",
+              "name": "modifyDiagram",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "elementId": {
+                    "type": "string",
+                    "description": "The id of the element to modify"
+                  },
+                  "updates": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New x position, or null"
+                      },
+                      "y": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New y position, or null"
+                      },
+                      "width": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New width, or null"
+                      },
+                      "height": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New height, or null"
+                      },
+                      "text": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New label or text content, or null"
+                      },
+                      "fontSize": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "textAlign": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "left",
+                              "center",
+                              "right"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex stroke color, or null"
+                      },
+                      "backgroundColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex fill color, or null"
+                      },
+                      "fillStyle": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "solid",
+                              "hachure",
+                              "cross-hatch"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeWidth": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "roughness": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "opacity": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "x",
+                      "y",
+                      "width",
+                      "height",
+                      "text",
+                      "fontSize",
+                      "textAlign",
+                      "strokeColor",
+                      "backgroundColor",
+                      "fillStyle",
+                      "strokeWidth",
+                      "roughness",
+                      "opacity"
+                    ],
+                    "description": "Fields to change. Set any field you don't want to touch to null.",
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "elementId",
+                  "updates"
+                ],
+                "additionalProperties": false
+              },
+              "strict": true
+            }
+          ],
+          "top_logprobs": 0,
+          "top_p": 0.98,
+          "truncation": "disabled",
+          "usage": {
+            "input_tokens": 863,
+            "input_tokens_details": {
+              "cached_tokens": 0
+            },
+            "output_tokens": 1022,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1885
+          },
+          "user": null,
+          "metadata": {}
+        },
+        "messages": [
+          {
+            "role": "assistant",
+            "content": [
+              {
+                "type": "tool-call",
+                "toolCallId": "call_w6qNkfdIvmgBZvmh1RQmGOSy",
+                "toolName": "generateDiagram",
+                "input": {
+                  "elements": [
+                    {
+                      "id": "rect-start",
+                      "type": "rectangle",
+                      "x": 80,
+                      "y": 80,
+                      "width": 180,
+                      "height": 70,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "#ffffff",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "text-start",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "text-start",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "text-start",
+                      "type": "text",
+                      "x": 125,
+                      "y": 98,
+                      "width": 90,
+                      "height": 30,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "Start",
+                      "fontSize": 22,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "rect-start",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-start",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "rect-process",
+                      "type": "rectangle",
+                      "x": 80,
+                      "y": 190,
+                      "width": 180,
+                      "height": 70,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "#ffffff",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "text-process",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "text-process",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "text-process",
+                      "type": "text",
+                      "x": 120,
+                      "y": 208,
+                      "width": 100,
+                      "height": 30,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "Process",
+                      "fontSize": 22,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "rect-process",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-process",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "rect-end",
+                      "type": "rectangle",
+                      "x": 80,
+                      "y": 300,
+                      "width": 180,
+                      "height": 70,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "#ffffff",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "text-end",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "text-end",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "text-end",
+                      "type": "text",
+                      "x": 130,
+                      "y": 318,
+                      "width": 80,
+                      "height": 30,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "End",
+                      "fontSize": 22,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "rect-end",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-end",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "arrow-1",
+                      "type": "arrow",
+                      "x": 170,
+                      "y": 150,
+                      "width": 0,
+                      "height": 40,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          40
+                        ]
+                      ],
+                      "startBinding": {
+                        "elementId": "rect-start",
+                        "focus": 0.75,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-process",
+                        "focus": 0.25,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "arrow-2",
+                      "type": "arrow",
+                      "x": 170,
+                      "y": 260,
+                      "width": 0,
+                      "height": 40,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          40
+                        ]
+                      ],
+                      "startBinding": {
+                        "elementId": "rect-process",
+                        "focus": 0.75,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-end",
+                        "focus": 0.25,
+                        "gap": 0
+                      }
+                    }
+                  ]
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_0405406f6dafe2e10069d4db5b38cc819797bbf2dc78770576"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "content": [
+              {
+                "type": "tool-result",
+                "toolCallId": "call_w6qNkfdIvmgBZvmh1RQmGOSy",
+                "toolName": "generateDiagram",
+                "output": {
+                  "type": "json",
+                  "value": {
+                    "elements": [
+                      {
+                        "id": "rect-start",
+                        "type": "rectangle",
+                        "x": 80,
+                        "y": 80,
+                        "width": 180,
+                        "height": 70,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "#ffffff",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "text-start",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "text-start",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "text-start",
+                        "type": "text",
+                        "x": 125,
+                        "y": 98,
+                        "width": 90,
+                        "height": 30,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "Start",
+                        "fontSize": 22,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "rect-start",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-start",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "rect-process",
+                        "type": "rectangle",
+                        "x": 80,
+                        "y": 190,
+                        "width": 180,
+                        "height": 70,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "#ffffff",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "text-process",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "text-process",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "text-process",
+                        "type": "text",
+                        "x": 120,
+                        "y": 208,
+                        "width": 100,
+                        "height": 30,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "Process",
+                        "fontSize": 22,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "rect-process",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-process",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "rect-end",
+                        "type": "rectangle",
+                        "x": 80,
+                        "y": 300,
+                        "width": 180,
+                        "height": 70,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "#ffffff",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "text-end",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "text-end",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "text-end",
+                        "type": "text",
+                        "x": 130,
+                        "y": 318,
+                        "width": 80,
+                        "height": 30,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "End",
+                        "fontSize": 22,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "rect-end",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-end",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "arrow-1",
+                        "type": "arrow",
+                        "x": 170,
+                        "y": 150,
+                        "width": 0,
+                        "height": 40,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [
+                          [
+                            0,
+                            0
+                          ],
+                          [
+                            0,
+                            40
+                          ]
+                        ],
+                        "startBinding": {
+                          "elementId": "rect-start",
+                          "focus": 0.75,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-process",
+                          "focus": 0.25,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "arrow-2",
+                        "type": "arrow",
+                        "x": 170,
+                        "y": 260,
+                        "width": 0,
+                        "height": 40,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [
+                          [
+                            0,
+                            0
+                          ],
+                          [
+                            0,
+                            40
+                          ]
+                        ],
+                        "startBinding": {
+                          "elementId": "rect-process",
+                          "focus": 0.75,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-end",
+                          "focus": 0.25,
+                          "gap": 0
+                        }
+                      }
+                    ]
+                  }
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_0405406f6dafe2e10069d4db5b38cc819797bbf2dc78770576"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "providerMetadata": {
+        "openai": {
+          "responseId": "resp_0405406f6dafe2e10069d4db5abf548197bf3efc293a91762f",
+          "serviceTier": "default"
+        }
+      }
+    },
+    {
+      "stepNumber": 1,
+      "model": {
+        "provider": "openai.responses",
+        "modelId": "gpt-5.4-mini"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Done — I created a simple flowchart with Start → Process → End boxes.\n\nIf you want, I can also:\n- make it horizontal instead of vertical\n- add arrows with labels\n- style it with colors\n- add more steps or decision diamonds",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "msg_0405406f6dafe2e10069d4db61ab848197a5595d7aa4e20834",
+              "phase": "final_answer"
+            }
+          }
+        }
+      ],
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2857,
+        "inputTokenDetails": {
+          "noCacheTokens": 2857,
+          "cacheReadTokens": 0
+        },
+        "outputTokens": 55,
+        "outputTokenDetails": {
+          "textTokens": 55,
+          "reasoningTokens": 0
+        },
+        "totalTokens": 2912,
+        "raw": {
+          "input_tokens": 2857,
+          "input_tokens_details": {
+            "cached_tokens": 0
+          },
+          "output_tokens": 55,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "reasoningTokens": 0,
+        "cachedInputTokens": 0
+      },
+      "warnings": [],
+      "request": {
+        "body": {
+          "model": "gpt-5.4-mini",
+          "input": [
+            {
+              "role": "developer",
+              "content": "You are a diagram design assistant. You help users create and modify diagrams on an Excalidraw canvas.\n\nWhen the user asks you to create a diagram, use the generateDiagram tool to produce Excalidraw elements.\n\nGuidelines for generating diagrams:\n- Give each element a unique id (e.g. \"rect-1\", \"text-1\", \"arrow-1\")\n- Position elements with reasonable spacing (at least 20px gap between elements)\n- Use rectangles for boxes/containers, ellipses for circles, diamonds for decision points\n- Add text labels inside or near shapes\n- Connect related elements with arrows\n- Use a clean layout: left to right or top to bottom\n- Default to strokeColor \"#1e1e1e\" and backgroundColor \"transparent\"\n- Set roughness to 1 for a hand-drawn look\n\nWhen the user asks to modify an element, use the modifyDiagram tool with the element's id."
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "input_text",
+                  "text": "Draw a start, process and end boxes flowchart"
+                }
+              ]
+            },
+            {
+              "type": "item_reference",
+              "id": "fc_0405406f6dafe2e10069d4db5b38cc819797bbf2dc78770576"
+            },
+            {
+              "type": "function_call_output",
+              "call_id": "call_w6qNkfdIvmgBZvmh1RQmGOSy",
+              "output": "{\"elements\":[{\"id\":\"rect-start\",\"type\":\"rectangle\",\"x\":80,\"y\":80,\"width\":180,\"height\":70,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"#ffffff\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{\"elementId\":\"text-start\",\"focus\":0.5,\"gap\":0},\"endBinding\":{\"elementId\":\"text-start\",\"focus\":0.5,\"gap\":0}},{\"id\":\"text-start\",\"type\":\"text\",\"x\":125,\"y\":98,\"width\":90,\"height\":30,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"Start\",\"fontSize\":22,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{\"elementId\":\"rect-start\",\"focus\":0.5,\"gap\":0},\"endBinding\":{\"elementId\":\"rect-start\",\"focus\":0.5,\"gap\":0}},{\"id\":\"rect-process\",\"type\":\"rectangle\",\"x\":80,\"y\":190,\"width\":180,\"height\":70,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"#ffffff\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{\"elementId\":\"text-process\",\"focus\":0.5,\"gap\":0},\"endBinding\":{\"elementId\":\"text-process\",\"focus\":0.5,\"gap\":0}},{\"id\":\"text-process\",\"type\":\"text\",\"x\":120,\"y\":208,\"width\":100,\"height\":30,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"Process\",\"fontSize\":22,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{\"elementId\":\"rect-process\",\"focus\":0.5,\"gap\":0},\"endBinding\":{\"elementId\":\"rect-process\",\"focus\":0.5,\"gap\":0}},{\"id\":\"rect-end\",\"type\":\"rectangle\",\"x\":80,\"y\":300,\"width\":180,\"height\":70,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"#ffffff\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{\"elementId\":\"text-end\",\"focus\":0.5,\"gap\":0},\"endBinding\":{\"elementId\":\"text-end\",\"focus\":0.5,\"gap\":0}},{\"id\":\"text-end\",\"type\":\"text\",\"x\":130,\"y\":318,\"width\":80,\"height\":30,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"End\",\"fontSize\":22,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{\"elementId\":\"rect-end\",\"focus\":0.5,\"gap\":0},\"endBinding\":{\"elementId\":\"rect-end\",\"focus\":0.5,\"gap\":0}},{\"id\":\"arrow-1\",\"type\":\"arrow\",\"x\":170,\"y\":150,\"width\":0,\"height\":40,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[[0,0],[0,40]],\"startBinding\":{\"elementId\":\"rect-start\",\"focus\":0.75,\"gap\":0},\"endBinding\":{\"elementId\":\"rect-process\",\"focus\":0.25,\"gap\":0}},{\"id\":\"arrow-2\",\"type\":\"arrow\",\"x\":170,\"y\":260,\"width\":0,\"height\":40,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"transparent\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[[0,0],[0,40]],\"startBinding\":{\"elementId\":\"rect-process\",\"focus\":0.75,\"gap\":0},\"endBinding\":{\"elementId\":\"rect-end\",\"focus\":0.25,\"gap\":0}}]}"
+            }
+          ],
+          "tools": [
+            {
+              "type": "function",
+              "name": "generateDiagram",
+              "description": "Generate a complete diagram as an array of Excalidraw elements. Use this when the user asks you to create, draw, or design a new diagram. Return all elements needed including shapes, text labels, and arrows/lines connecting them. Position elements with x,y coordinates and give each a unique id.",
+              "parameters": {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "type": "object",
+                "properties": {
+                  "elements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Unique identifier"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "rectangle",
+                            "ellipse",
+                            "diamond",
+                            "text",
+                            "arrow",
+                            "line"
+                          ]
+                        },
+                        "x": {
+                          "type": "number",
+                          "description": "X position"
+                        },
+                        "y": {
+                          "type": "number",
+                          "description": "Y position"
+                        },
+                        "width": {
+                          "type": "number",
+                          "description": "Width"
+                        },
+                        "height": {
+                          "type": "number",
+                          "description": "Height"
+                        },
+                        "strokeColor": {
+                          "default": "#1e1e1e",
+                          "description": "Stroke color (hex)",
+                          "type": "string"
+                        },
+                        "backgroundColor": {
+                          "default": "transparent",
+                          "description": "Fill color",
+                          "type": "string"
+                        },
+                        "fillStyle": {
+                          "default": "solid",
+                          "type": "string",
+                          "enum": [
+                            "solid",
+                            "hachure",
+                            "cross-hatch"
+                          ]
+                        },
+                        "strokeWidth": {
+                          "default": 2,
+                          "type": "number"
+                        },
+                        "roughness": {
+                          "default": 1,
+                          "description": "0 for clean, 1 for sketchy",
+                          "type": "number"
+                        },
+                        "opacity": {
+                          "default": 100,
+                          "type": "number"
+                        },
+                        "text": {
+                          "description": "Text content (for text elements)",
+                          "type": "string"
+                        },
+                        "fontSize": {
+                          "default": 20,
+                          "type": "number"
+                        },
+                        "fontFamily": {
+                          "default": 1,
+                          "description": "1=Virgil, 2=Helvetica, 3=Cascadia",
+                          "type": "number"
+                        },
+                        "textAlign": {
+                          "default": "center",
+                          "type": "string",
+                          "enum": [
+                            "left",
+                            "center",
+                            "right"
+                          ]
+                        },
+                        "points": {
+                          "description": "Array of [x,y] points (for arrow/line elements). Each point is a two number array.",
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        },
+                        "startBinding": {
+                          "description": "Bind arrow start to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "endBinding": {
+                          "description": "Bind arrow end to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "type",
+                        "x",
+                        "y",
+                        "width",
+                        "height"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Array of Excalidraw elements that make up the diagram"
+                  }
+                },
+                "required": [
+                  "elements"
+                ],
+                "additionalProperties": false
+              }
+            },
+            {
+              "type": "function",
+              "name": "modifyDiagram",
+              "description": "Modify an existing element on the canvas by id. Pass null for any field you don't want to change. The element id must come from the current canvas state.",
+              "parameters": {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "type": "object",
+                "properties": {
+                  "elementId": {
+                    "type": "string",
+                    "description": "The id of the element to modify"
+                  },
+                  "updates": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New x position, or null"
+                      },
+                      "y": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New y position, or null"
+                      },
+                      "width": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New width, or null"
+                      },
+                      "height": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New height, or null"
+                      },
+                      "text": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New label or text content, or null"
+                      },
+                      "fontSize": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "textAlign": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "left",
+                              "center",
+                              "right"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex stroke color, or null"
+                      },
+                      "backgroundColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex fill color, or null"
+                      },
+                      "fillStyle": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "solid",
+                              "hachure",
+                              "cross-hatch"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeWidth": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "roughness": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "opacity": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "x",
+                      "y",
+                      "width",
+                      "height",
+                      "text",
+                      "fontSize",
+                      "textAlign",
+                      "strokeColor",
+                      "backgroundColor",
+                      "fillStyle",
+                      "strokeWidth",
+                      "roughness",
+                      "opacity"
+                    ],
+                    "description": "Fields to change. Set any field you don't want to touch to null.",
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "elementId",
+                  "updates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          ],
+          "tool_choice": "auto"
+        }
+      },
+      "response": {
+        "id": "resp_0405406f6dafe2e10069d4db61601c819794073936f8e127aa",
+        "timestamp": "2026-04-07T10:24:33.000Z",
+        "modelId": "gpt-5.4-mini-2026-03-17",
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "9e8852bf6e743bda-BOM",
+          "connection": "keep-alive",
+          "content-encoding": "br",
+          "content-type": "application/json",
+          "date": "Tue, 07 Apr 2026 10:24:34 GMT",
+          "openai-organization": "user-9uuazzwi58e0ff8zqjhiz8uw",
+          "openai-processing-ms": "985",
+          "openai-project": "proj_VDElpr264ycX3uszrF0xz43q",
+          "openai-version": "2020-10-01",
+          "server": "cloudflare",
+          "set-cookie": "__cf_bm=7S6gjF3jqZ8y5YaEc6VvsCI8XJNxJg6g4wnaGR_Ih1c-1775557473.1838017-1.0.1.1-NzTWpxzeUNe8S6STVMG2urIbM7XbIls0Z4luJBUVAQoKAvNR8vy5N6msxcKvZ8KX5wCVoFPSZQw.levNkaxZKtwJR1fQJq4Mmrb1Bks8qKLaqWcCv9S8o6KNgM_JCfJb; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Tue, 07 Apr 2026 10:54:34 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "x-content-type-options": "nosniff",
+          "x-ratelimit-limit-requests": "500",
+          "x-ratelimit-limit-tokens": "200000",
+          "x-ratelimit-remaining-requests": "499",
+          "x-ratelimit-remaining-tokens": "200000",
+          "x-ratelimit-reset-requests": "120ms",
+          "x-ratelimit-reset-tokens": "0s",
+          "x-request-id": "req_773a2076a9624f458660738b20aa6088"
+        },
+        "body": {
+          "id": "resp_0405406f6dafe2e10069d4db61601c819794073936f8e127aa",
+          "object": "response",
+          "created_at": 1775557473,
+          "status": "completed",
+          "background": false,
+          "billing": {
+            "payer": "developer"
+          },
+          "completed_at": 1775557474,
+          "error": null,
+          "frequency_penalty": 0,
+          "incomplete_details": null,
+          "instructions": null,
+          "max_output_tokens": null,
+          "max_tool_calls": null,
+          "model": "gpt-5.4-mini-2026-03-17",
+          "output": [
+            {
+              "id": "msg_0405406f6dafe2e10069d4db61ab848197a5595d7aa4e20834",
+              "type": "message",
+              "status": "completed",
+              "content": [
+                {
+                  "type": "output_text",
+                  "annotations": [],
+                  "logprobs": [],
+                  "text": "Done — I created a simple flowchart with Start → Process → End boxes.\n\nIf you want, I can also:\n- make it horizontal instead of vertical\n- add arrows with labels\n- style it with colors\n- add more steps or decision diamonds"
+                }
+              ],
+              "phase": "final_answer",
+              "role": "assistant"
+            }
+          ],
+          "parallel_tool_calls": true,
+          "presence_penalty": 0,
+          "previous_response_id": null,
+          "prompt_cache_key": null,
+          "prompt_cache_retention": null,
+          "reasoning": {
+            "effort": "none",
+            "summary": null
+          },
+          "safety_identifier": null,
+          "service_tier": "default",
+          "store": true,
+          "temperature": 1,
+          "text": {
+            "format": {
+              "type": "text"
+            },
+            "verbosity": "medium"
+          },
+          "tool_choice": "auto",
+          "tools": [
+            {
+              "type": "function",
+              "description": "Generate a complete diagram as an array of Excalidraw elements. Use this when the user asks you to create, draw, or design a new diagram. Return all elements needed including shapes, text labels, and arrows/lines connecting them. Position elements with x,y coordinates and give each a unique id.",
+              "name": "generateDiagram",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "elements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Unique identifier"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "rectangle",
+                            "ellipse",
+                            "diamond",
+                            "text",
+                            "arrow",
+                            "line"
+                          ]
+                        },
+                        "x": {
+                          "type": "number",
+                          "description": "X position"
+                        },
+                        "y": {
+                          "type": "number",
+                          "description": "Y position"
+                        },
+                        "width": {
+                          "type": "number",
+                          "description": "Width"
+                        },
+                        "height": {
+                          "type": "number",
+                          "description": "Height"
+                        },
+                        "strokeColor": {
+                          "default": "#1e1e1e",
+                          "description": "Stroke color (hex)",
+                          "type": "string"
+                        },
+                        "backgroundColor": {
+                          "default": "transparent",
+                          "description": "Fill color",
+                          "type": "string"
+                        },
+                        "fillStyle": {
+                          "default": "solid",
+                          "type": "string",
+                          "enum": [
+                            "solid",
+                            "hachure",
+                            "cross-hatch"
+                          ]
+                        },
+                        "strokeWidth": {
+                          "default": 2,
+                          "type": "number"
+                        },
+                        "roughness": {
+                          "default": 1,
+                          "description": "0 for clean, 1 for sketchy",
+                          "type": "number"
+                        },
+                        "opacity": {
+                          "default": 100,
+                          "type": "number"
+                        },
+                        "text": {
+                          "description": "Text content (for text elements)",
+                          "type": "string"
+                        },
+                        "fontSize": {
+                          "default": 20,
+                          "type": "number"
+                        },
+                        "fontFamily": {
+                          "default": 1,
+                          "description": "1=Virgil, 2=Helvetica, 3=Cascadia",
+                          "type": "number"
+                        },
+                        "textAlign": {
+                          "default": "center",
+                          "type": "string",
+                          "enum": [
+                            "left",
+                            "center",
+                            "right"
+                          ]
+                        },
+                        "points": {
+                          "description": "Array of [x,y] points (for arrow/line elements). Each point is a two number array.",
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        },
+                        "startBinding": {
+                          "description": "Bind arrow start to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "endBinding": {
+                          "description": "Bind arrow end to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "type",
+                        "x",
+                        "y",
+                        "width",
+                        "height",
+                        "strokeColor",
+                        "backgroundColor",
+                        "fillStyle",
+                        "strokeWidth",
+                        "roughness",
+                        "opacity",
+                        "text",
+                        "fontSize",
+                        "fontFamily",
+                        "textAlign",
+                        "points",
+                        "startBinding",
+                        "endBinding"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Array of Excalidraw elements that make up the diagram"
+                  }
+                },
+                "required": [
+                  "elements"
+                ],
+                "additionalProperties": false
+              },
+              "strict": true
+            },
+            {
+              "type": "function",
+              "description": "Modify an existing element on the canvas by id. Pass null for any field you don't want to change. The element id must come from the current canvas state.",
+              "name": "modifyDiagram",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "elementId": {
+                    "type": "string",
+                    "description": "The id of the element to modify"
+                  },
+                  "updates": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New x position, or null"
+                      },
+                      "y": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New y position, or null"
+                      },
+                      "width": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New width, or null"
+                      },
+                      "height": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New height, or null"
+                      },
+                      "text": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New label or text content, or null"
+                      },
+                      "fontSize": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "textAlign": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "left",
+                              "center",
+                              "right"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex stroke color, or null"
+                      },
+                      "backgroundColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex fill color, or null"
+                      },
+                      "fillStyle": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "solid",
+                              "hachure",
+                              "cross-hatch"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeWidth": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "roughness": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "opacity": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "x",
+                      "y",
+                      "width",
+                      "height",
+                      "text",
+                      "fontSize",
+                      "textAlign",
+                      "strokeColor",
+                      "backgroundColor",
+                      "fillStyle",
+                      "strokeWidth",
+                      "roughness",
+                      "opacity"
+                    ],
+                    "description": "Fields to change. Set any field you don't want to touch to null.",
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "elementId",
+                  "updates"
+                ],
+                "additionalProperties": false
+              },
+              "strict": true
+            }
+          ],
+          "top_logprobs": 0,
+          "top_p": 0.98,
+          "truncation": "disabled",
+          "usage": {
+            "input_tokens": 2857,
+            "input_tokens_details": {
+              "cached_tokens": 0
+            },
+            "output_tokens": 55,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2912
+          },
+          "user": null,
+          "metadata": {}
+        },
+        "messages": [
+          {
+            "role": "assistant",
+            "content": [
+              {
+                "type": "tool-call",
+                "toolCallId": "call_w6qNkfdIvmgBZvmh1RQmGOSy",
+                "toolName": "generateDiagram",
+                "input": {
+                  "elements": [
+                    {
+                      "id": "rect-start",
+                      "type": "rectangle",
+                      "x": 80,
+                      "y": 80,
+                      "width": 180,
+                      "height": 70,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "#ffffff",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "text-start",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "text-start",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "text-start",
+                      "type": "text",
+                      "x": 125,
+                      "y": 98,
+                      "width": 90,
+                      "height": 30,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "Start",
+                      "fontSize": 22,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "rect-start",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-start",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "rect-process",
+                      "type": "rectangle",
+                      "x": 80,
+                      "y": 190,
+                      "width": 180,
+                      "height": 70,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "#ffffff",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "text-process",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "text-process",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "text-process",
+                      "type": "text",
+                      "x": 120,
+                      "y": 208,
+                      "width": 100,
+                      "height": 30,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "Process",
+                      "fontSize": 22,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "rect-process",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-process",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "rect-end",
+                      "type": "rectangle",
+                      "x": 80,
+                      "y": 300,
+                      "width": 180,
+                      "height": 70,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "#ffffff",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "text-end",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "text-end",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "text-end",
+                      "type": "text",
+                      "x": 130,
+                      "y": 318,
+                      "width": 80,
+                      "height": 30,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "End",
+                      "fontSize": 22,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "rect-end",
+                        "focus": 0.5,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-end",
+                        "focus": 0.5,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "arrow-1",
+                      "type": "arrow",
+                      "x": 170,
+                      "y": 150,
+                      "width": 0,
+                      "height": 40,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          40
+                        ]
+                      ],
+                      "startBinding": {
+                        "elementId": "rect-start",
+                        "focus": 0.75,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-process",
+                        "focus": 0.25,
+                        "gap": 0
+                      }
+                    },
+                    {
+                      "id": "arrow-2",
+                      "type": "arrow",
+                      "x": 170,
+                      "y": 260,
+                      "width": 0,
+                      "height": 40,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "transparent",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          40
+                        ]
+                      ],
+                      "startBinding": {
+                        "elementId": "rect-process",
+                        "focus": 0.75,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-end",
+                        "focus": 0.25,
+                        "gap": 0
+                      }
+                    }
+                  ]
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_0405406f6dafe2e10069d4db5b38cc819797bbf2dc78770576"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "content": [
+              {
+                "type": "tool-result",
+                "toolCallId": "call_w6qNkfdIvmgBZvmh1RQmGOSy",
+                "toolName": "generateDiagram",
+                "output": {
+                  "type": "json",
+                  "value": {
+                    "elements": [
+                      {
+                        "id": "rect-start",
+                        "type": "rectangle",
+                        "x": 80,
+                        "y": 80,
+                        "width": 180,
+                        "height": 70,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "#ffffff",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "text-start",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "text-start",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "text-start",
+                        "type": "text",
+                        "x": 125,
+                        "y": 98,
+                        "width": 90,
+                        "height": 30,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "Start",
+                        "fontSize": 22,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "rect-start",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-start",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "rect-process",
+                        "type": "rectangle",
+                        "x": 80,
+                        "y": 190,
+                        "width": 180,
+                        "height": 70,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "#ffffff",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "text-process",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "text-process",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "text-process",
+                        "type": "text",
+                        "x": 120,
+                        "y": 208,
+                        "width": 100,
+                        "height": 30,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "Process",
+                        "fontSize": 22,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "rect-process",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-process",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "rect-end",
+                        "type": "rectangle",
+                        "x": 80,
+                        "y": 300,
+                        "width": 180,
+                        "height": 70,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "#ffffff",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "text-end",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "text-end",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "text-end",
+                        "type": "text",
+                        "x": 130,
+                        "y": 318,
+                        "width": 80,
+                        "height": 30,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "End",
+                        "fontSize": 22,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "rect-end",
+                          "focus": 0.5,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-end",
+                          "focus": 0.5,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "arrow-1",
+                        "type": "arrow",
+                        "x": 170,
+                        "y": 150,
+                        "width": 0,
+                        "height": 40,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [
+                          [
+                            0,
+                            0
+                          ],
+                          [
+                            0,
+                            40
+                          ]
+                        ],
+                        "startBinding": {
+                          "elementId": "rect-start",
+                          "focus": 0.75,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-process",
+                          "focus": 0.25,
+                          "gap": 0
+                        }
+                      },
+                      {
+                        "id": "arrow-2",
+                        "type": "arrow",
+                        "x": 170,
+                        "y": 260,
+                        "width": 0,
+                        "height": 40,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "transparent",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [
+                          [
+                            0,
+                            0
+                          ],
+                          [
+                            0,
+                            40
+                          ]
+                        ],
+                        "startBinding": {
+                          "elementId": "rect-process",
+                          "focus": 0.75,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-end",
+                          "focus": 0.25,
+                          "gap": 0
+                        }
+                      }
+                    ]
+                  }
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_0405406f6dafe2e10069d4db5b38cc819797bbf2dc78770576"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": [
+              {
+                "type": "text",
+                "text": "Done — I created a simple flowchart with Start → Process → End boxes.\n\nIf you want, I can also:\n- make it horizontal instead of vertical\n- add arrows with labels\n- style it with colors\n- add more steps or decision diamonds",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "msg_0405406f6dafe2e10069d4db61ab848197a5595d7aa4e20834",
+                    "phase": "final_answer"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "providerMetadata": {
+        "openai": {
+          "responseId": "resp_0405406f6dafe2e10069d4db61601c819794073936f8e127aa",
+          "serviceTier": "default"
+        }
+      }
+    }
+  ]
+}

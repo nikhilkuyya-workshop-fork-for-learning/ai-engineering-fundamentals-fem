@@ -1,0 +1,206 @@
+{
+  "text": "",
+  "elements": [],
+  "steps": [
+    {
+      "stepNumber": 0,
+      "model": {
+        "provider": "openai.responses",
+        "modelId": "gpt-5.4-mini"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "msg_0ad07f5b017ef0c50069d4d89f4ffc8197b2024e78abbfa4ea",
+              "phase": "commentary"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "msg_0ad07f5b017ef0c50069d4d89f5cf0819785d7c312112d8f06",
+              "phase": "final_answer"
+            }
+          }
+        }
+      ],
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 213,
+        "inputTokenDetails": {
+          "noCacheTokens": 213,
+          "cacheReadTokens": 0
+        },
+        "outputTokens": 11,
+        "outputTokenDetails": {
+          "textTokens": 11,
+          "reasoningTokens": 0
+        },
+        "totalTokens": 224,
+        "raw": {
+          "input_tokens": 213,
+          "input_tokens_details": {
+            "cached_tokens": 0
+          },
+          "output_tokens": 11,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "reasoningTokens": 0,
+        "cachedInputTokens": 0
+      },
+      "warnings": [],
+      "request": {
+        "body": {
+          "model": "gpt-5.4-mini",
+          "input": [
+            {
+              "role": "developer",
+              "content": "You are a diagram design assistant. You help users create and modify diagrams on an Excalidraw canvas.\n\nWhen the user asks you to create a diagram, use the generateDiagram tool to produce Excalidraw elements.\n\nGuidelines for generating diagrams:\n- Give each element a unique id (e.g. \"rect-1\", \"text-1\", \"arrow-1\")\n- Position elements with reasonable spacing (at least 20px gap between elements)\n- Use rectangles for boxes/containers, ellipses for circles, diamonds for decision points\n- Add text labels inside or near shapes\n- Connect related elements with arrows\n- Use a clean layout: left to right or top to bottom\n- Default to strokeColor \"#1e1e1e\" and backgroundColor \"transparent\"\n- Set roughness to 1 for a hand-drawn look\n\nWhen the user asks to modify an element, use the modifyDiagram tool with the element's id."
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "input_text",
+                  "text": "Draw a single rectangle with background color red"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "response": {
+        "id": "resp_0ad07f5b017ef0c50069d4d89f13e0819785f3ced1b88741b0",
+        "timestamp": "2026-04-07T10:12:47.000Z",
+        "modelId": "gpt-5.4-mini-2026-03-17",
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "9e8841815fb92ddf-BOM",
+          "connection": "keep-alive",
+          "content-encoding": "br",
+          "content-type": "application/json",
+          "date": "Tue, 07 Apr 2026 10:12:47 GMT",
+          "openai-organization": "user-9uuazzwi58e0ff8zqjhiz8uw",
+          "openai-processing-ms": "524",
+          "openai-project": "proj_VDElpr264ycX3uszrF0xz43q",
+          "openai-version": "2020-10-01",
+          "server": "cloudflare",
+          "set-cookie": "__cf_bm=YXg29d2VNS6fDUjKuBy90QPPVMhB7_7HWwy7CmW.x8I-1775556766.9322355-1.0.1.1-8.1ga1K0jFEhAkh1dGHFdBdTzGLnOpi_C7Z0TVgNMhEgS1DS1zPUdyTpF5V.wGHqUi1nAovWivPtxSI6B9RHuhVmRCf40QJAEbZK81QKrw6qmviERfTSqrQ_q4wDgdC1; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Tue, 07 Apr 2026 10:42:47 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "x-content-type-options": "nosniff",
+          "x-ratelimit-limit-requests": "500",
+          "x-ratelimit-limit-tokens": "200000",
+          "x-ratelimit-remaining-requests": "499",
+          "x-ratelimit-remaining-tokens": "200000",
+          "x-ratelimit-reset-requests": "120ms",
+          "x-ratelimit-reset-tokens": "0s",
+          "x-request-id": "req_3454291e3ffa4503ad801b4c64016bc7"
+        },
+        "body": {
+          "id": "resp_0ad07f5b017ef0c50069d4d89f13e0819785f3ced1b88741b0",
+          "object": "response",
+          "created_at": 1775556767,
+          "status": "completed",
+          "background": false,
+          "billing": {
+            "payer": "developer"
+          },
+          "completed_at": 1775556767,
+          "error": null,
+          "frequency_penalty": 0,
+          "incomplete_details": null,
+          "instructions": null,
+          "max_output_tokens": null,
+          "max_tool_calls": null,
+          "model": "gpt-5.4-mini-2026-03-17",
+          "output": [
+            {
+              "id": "msg_0ad07f5b017ef0c50069d4d89f4ffc8197b2024e78abbfa4ea",
+              "type": "message",
+              "status": "completed",
+              "content": [
+                {
+                  "type": "output_text",
+                  "annotations": [],
+                  "logprobs": [],
+                  "text": ""
+                }
+              ],
+              "phase": "commentary",
+              "role": "assistant"
+            },
+            {
+              "id": "msg_0ad07f5b017ef0c50069d4d89f5cf0819785d7c312112d8f06",
+              "type": "message",
+              "status": "completed",
+              "content": [
+                {
+                  "type": "output_text",
+                  "annotations": [],
+                  "logprobs": [],
+                  "text": ""
+                }
+              ],
+              "phase": "final_answer",
+              "role": "assistant"
+            }
+          ],
+          "parallel_tool_calls": true,
+          "presence_penalty": 0,
+          "previous_response_id": null,
+          "prompt_cache_key": null,
+          "prompt_cache_retention": null,
+          "reasoning": {
+            "effort": "none",
+            "summary": null
+          },
+          "safety_identifier": null,
+          "service_tier": "default",
+          "store": true,
+          "temperature": 1,
+          "text": {
+            "format": {
+              "type": "text"
+            },
+            "verbosity": "medium"
+          },
+          "tool_choice": "auto",
+          "tools": [],
+          "top_logprobs": 0,
+          "top_p": 0.98,
+          "truncation": "disabled",
+          "usage": {
+            "input_tokens": 213,
+            "input_tokens_details": {
+              "cached_tokens": 0
+            },
+            "output_tokens": 11,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 224
+          },
+          "user": null,
+          "metadata": {}
+        },
+        "messages": []
+      },
+      "providerMetadata": {
+        "openai": {
+          "responseId": "resp_0ad07f5b017ef0c50069d4d89f13e0819785f3ced1b88741b0",
+          "serviceTier": "default"
+        }
+      }
+    }
+  ]
+}

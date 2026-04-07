@@ -1,0 +1,25 @@
+[
+    {
+        "id": "create-simple-single-digagram-01",
+        "input": "Draw a single rectangle with background color red",
+        "expectedCharacteristics": [
+            "1 rectangle element",
+            "The rectangle has a background color red"
+        ],
+        "difficulty": "simple",
+        "category": "create"
+    },
+    {
+        "id": "create-simple-rectangle-two-sides-connected-with-circle-01",
+        "input": "Draw a start, process and end boxes flowchart",
+        "expectedCharacteristics": [
+            "3 elements",
+            "1 rectangle element",
+            "2 circle elements",
+            "2 arrows elements",
+            "The arrows are connected to the rectangles and circles"
+        ],
+        "difficulty": "simple",
+        "category": "create"
+    }
+]

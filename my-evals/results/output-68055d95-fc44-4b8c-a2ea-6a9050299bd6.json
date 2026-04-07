@@ -1,0 +1,2183 @@
+{
+  "text": "Done.",
+  "elements": [
+    {
+      "id": "rect-1",
+      "type": "rectangle",
+      "x": 100,
+      "y": 100,
+      "width": 240,
+      "height": 140,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ff0000",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "points": [],
+      "startBinding": {
+        "elementId": "rect-1",
+        "focus": 0,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "rect-1",
+        "focus": 0,
+        "gap": 0
+      }
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 0,
+      "model": {
+        "provider": "openai.responses",
+        "modelId": "gpt-5.4-mini"
+      },
+      "content": [
+        {
+          "type": "tool-call",
+          "toolCallId": "call_zNP76lyO1hHSy9pyOychEJdv",
+          "toolName": "generateDiagram",
+          "input": {
+            "elements": [
+              {
+                "id": "rect-1",
+                "type": "rectangle",
+                "x": 100,
+                "y": 100,
+                "width": 240,
+                "height": 140,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ff0000",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-1",
+                  "focus": 0,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-1",
+                  "focus": 0,
+                  "gap": 0
+                }
+              }
+            ]
+          },
+          "providerMetadata": {
+            "openai": {
+              "itemId": "fc_03af9d1b0b22469d0069d4d8cc57448196adca1e7ce7945f5c"
+            }
+          }
+        },
+        {
+          "type": "tool-result",
+          "toolCallId": "call_zNP76lyO1hHSy9pyOychEJdv",
+          "toolName": "generateDiagram",
+          "input": {
+            "elements": [
+              {
+                "id": "rect-1",
+                "type": "rectangle",
+                "x": 100,
+                "y": 100,
+                "width": 240,
+                "height": 140,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ff0000",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-1",
+                  "focus": 0,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-1",
+                  "focus": 0,
+                  "gap": 0
+                }
+              }
+            ]
+          },
+          "output": {
+            "elements": [
+              {
+                "id": "rect-1",
+                "type": "rectangle",
+                "x": 100,
+                "y": 100,
+                "width": 240,
+                "height": 140,
+                "strokeColor": "#1e1e1e",
+                "backgroundColor": "#ff0000",
+                "fillStyle": "solid",
+                "strokeWidth": 2,
+                "roughness": 1,
+                "opacity": 100,
+                "text": "",
+                "fontSize": 20,
+                "fontFamily": 1,
+                "textAlign": "center",
+                "points": [],
+                "startBinding": {
+                  "elementId": "rect-1",
+                  "focus": 0,
+                  "gap": 0
+                },
+                "endBinding": {
+                  "elementId": "rect-1",
+                  "focus": 0,
+                  "gap": 0
+                }
+              }
+            ]
+          },
+          "dynamic": false,
+          "providerMetadata": {
+            "openai": {
+              "itemId": "fc_03af9d1b0b22469d0069d4d8cc57448196adca1e7ce7945f5c"
+            }
+          }
+        }
+      ],
+      "finishReason": "tool-calls",
+      "usage": {
+        "inputTokens": 861,
+        "inputTokenDetails": {
+          "noCacheTokens": 861,
+          "cacheReadTokens": 0
+        },
+        "outputTokens": 142,
+        "outputTokenDetails": {
+          "textTokens": 142,
+          "reasoningTokens": 0
+        },
+        "totalTokens": 1003,
+        "raw": {
+          "input_tokens": 861,
+          "input_tokens_details": {
+            "cached_tokens": 0
+          },
+          "output_tokens": 142,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "reasoningTokens": 0,
+        "cachedInputTokens": 0
+      },
+      "warnings": [],
+      "request": {
+        "body": {
+          "model": "gpt-5.4-mini",
+          "input": [
+            {
+              "role": "developer",
+              "content": "You are a diagram design assistant. You help users create and modify diagrams on an Excalidraw canvas.\n\nWhen the user asks you to create a diagram, use the generateDiagram tool to produce Excalidraw elements.\n\nGuidelines for generating diagrams:\n- Give each element a unique id (e.g. \"rect-1\", \"text-1\", \"arrow-1\")\n- Position elements with reasonable spacing (at least 20px gap between elements)\n- Use rectangles for boxes/containers, ellipses for circles, diamonds for decision points\n- Add text labels inside or near shapes\n- Connect related elements with arrows\n- Use a clean layout: left to right or top to bottom\n- Default to strokeColor \"#1e1e1e\" and backgroundColor \"transparent\"\n- Set roughness to 1 for a hand-drawn look\n\nWhen the user asks to modify an element, use the modifyDiagram tool with the element's id."
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "input_text",
+                  "text": "Draw a single rectangle with background color red"
+                }
+              ]
+            }
+          ],
+          "tools": [
+            {
+              "type": "function",
+              "name": "generateDiagram",
+              "description": "Generate a complete diagram as an array of Excalidraw elements. Use this when the user asks you to create, draw, or design a new diagram. Return all elements needed including shapes, text labels, and arrows/lines connecting them. Position elements with x,y coordinates and give each a unique id.",
+              "parameters": {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "type": "object",
+                "properties": {
+                  "elements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Unique identifier"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "rectangle",
+                            "ellipse",
+                            "diamond",
+                            "text",
+                            "arrow",
+                            "line"
+                          ]
+                        },
+                        "x": {
+                          "type": "number",
+                          "description": "X position"
+                        },
+                        "y": {
+                          "type": "number",
+                          "description": "Y position"
+                        },
+                        "width": {
+                          "type": "number",
+                          "description": "Width"
+                        },
+                        "height": {
+                          "type": "number",
+                          "description": "Height"
+                        },
+                        "strokeColor": {
+                          "default": "#1e1e1e",
+                          "description": "Stroke color (hex)",
+                          "type": "string"
+                        },
+                        "backgroundColor": {
+                          "default": "transparent",
+                          "description": "Fill color",
+                          "type": "string"
+                        },
+                        "fillStyle": {
+                          "default": "solid",
+                          "type": "string",
+                          "enum": [
+                            "solid",
+                            "hachure",
+                            "cross-hatch"
+                          ]
+                        },
+                        "strokeWidth": {
+                          "default": 2,
+                          "type": "number"
+                        },
+                        "roughness": {
+                          "default": 1,
+                          "description": "0 for clean, 1 for sketchy",
+                          "type": "number"
+                        },
+                        "opacity": {
+                          "default": 100,
+                          "type": "number"
+                        },
+                        "text": {
+                          "description": "Text content (for text elements)",
+                          "type": "string"
+                        },
+                        "fontSize": {
+                          "default": 20,
+                          "type": "number"
+                        },
+                        "fontFamily": {
+                          "default": 1,
+                          "description": "1=Virgil, 2=Helvetica, 3=Cascadia",
+                          "type": "number"
+                        },
+                        "textAlign": {
+                          "default": "center",
+                          "type": "string",
+                          "enum": [
+                            "left",
+                            "center",
+                            "right"
+                          ]
+                        },
+                        "points": {
+                          "description": "Array of [x,y] points (for arrow/line elements). Each point is a two number array.",
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        },
+                        "startBinding": {
+                          "description": "Bind arrow start to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "endBinding": {
+                          "description": "Bind arrow end to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "type",
+                        "x",
+                        "y",
+                        "width",
+                        "height"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Array of Excalidraw elements that make up the diagram"
+                  }
+                },
+                "required": [
+                  "elements"
+                ],
+                "additionalProperties": false
+              }
+            },
+            {
+              "type": "function",
+              "name": "modifyDiagram",
+              "description": "Modify an existing element on the canvas by id. Pass null for any field you don't want to change. The element id must come from the current canvas state.",
+              "parameters": {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "type": "object",
+                "properties": {
+                  "elementId": {
+                    "type": "string",
+                    "description": "The id of the element to modify"
+                  },
+                  "updates": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New x position, or null"
+                      },
+                      "y": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New y position, or null"
+                      },
+                      "width": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New width, or null"
+                      },
+                      "height": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New height, or null"
+                      },
+                      "text": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New label or text content, or null"
+                      },
+                      "fontSize": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "textAlign": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "left",
+                              "center",
+                              "right"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex stroke color, or null"
+                      },
+                      "backgroundColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex fill color, or null"
+                      },
+                      "fillStyle": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "solid",
+                              "hachure",
+                              "cross-hatch"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeWidth": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "roughness": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "opacity": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "x",
+                      "y",
+                      "width",
+                      "height",
+                      "text",
+                      "fontSize",
+                      "textAlign",
+                      "strokeColor",
+                      "backgroundColor",
+                      "fillStyle",
+                      "strokeWidth",
+                      "roughness",
+                      "opacity"
+                    ],
+                    "description": "Fields to change. Set any field you don't want to touch to null.",
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "elementId",
+                  "updates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          ],
+          "tool_choice": "auto"
+        }
+      },
+      "response": {
+        "id": "resp_03af9d1b0b22469d0069d4d8cbcbc4819685face641398d277",
+        "timestamp": "2026-04-07T10:13:31.000Z",
+        "modelId": "gpt-5.4-mini-2026-03-17",
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "9e884295cdc785ea-BOM",
+          "connection": "keep-alive",
+          "content-encoding": "br",
+          "content-type": "application/json",
+          "date": "Tue, 07 Apr 2026 10:13:33 GMT",
+          "openai-organization": "user-9uuazzwi58e0ff8zqjhiz8uw",
+          "openai-processing-ms": "1562",
+          "openai-project": "proj_VDElpr264ycX3uszrF0xz43q",
+          "openai-version": "2020-10-01",
+          "server": "cloudflare",
+          "set-cookie": "__cf_bm=zaVYbqK2dPG0FbqsiUbwmKRTaeIFmSBoXYYwElw9.iI-1775556811.1706274-1.0.1.1-PVFKf7.3pJlXAthQ0Nu11R8dDv6TVLsClo5nKJ2WrsL78_pdyR1zPCWjcDsD4UNeokzts_KAy6stSEUmOjlWK9BPaAF4QYPpo9nFEVbxH1y7YaAb1Y0AszTyWm8b8H8u; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Tue, 07 Apr 2026 10:43:33 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "x-content-type-options": "nosniff",
+          "x-ratelimit-limit-requests": "500",
+          "x-ratelimit-limit-tokens": "200000",
+          "x-ratelimit-remaining-requests": "499",
+          "x-ratelimit-remaining-tokens": "200000",
+          "x-ratelimit-reset-requests": "120ms",
+          "x-ratelimit-reset-tokens": "0s",
+          "x-request-id": "req_2bee5e381f104f358c04ec14b3f6ca37"
+        },
+        "body": {
+          "id": "resp_03af9d1b0b22469d0069d4d8cbcbc4819685face641398d277",
+          "object": "response",
+          "created_at": 1775556811,
+          "status": "completed",
+          "background": false,
+          "billing": {
+            "payer": "developer"
+          },
+          "completed_at": 1775556813,
+          "error": null,
+          "frequency_penalty": 0,
+          "incomplete_details": null,
+          "instructions": null,
+          "max_output_tokens": null,
+          "max_tool_calls": null,
+          "model": "gpt-5.4-mini-2026-03-17",
+          "output": [
+            {
+              "id": "fc_03af9d1b0b22469d0069d4d8cc57448196adca1e7ce7945f5c",
+              "type": "function_call",
+              "status": "completed",
+              "arguments": "{\"elements\":[{\"id\":\"rect-1\",\"type\":\"rectangle\",\"x\":100,\"y\":100,\"width\":240,\"height\":140,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"#ff0000\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{ \"elementId\":\"rect-1\",\"focus\":0,\"gap\":0},\"endBinding\":{ \"elementId\":\"rect-1\",\"focus\":0,\"gap\":0}}]}",
+              "call_id": "call_zNP76lyO1hHSy9pyOychEJdv",
+              "name": "generateDiagram"
+            }
+          ],
+          "parallel_tool_calls": true,
+          "presence_penalty": 0,
+          "previous_response_id": null,
+          "prompt_cache_key": null,
+          "prompt_cache_retention": null,
+          "reasoning": {
+            "effort": "none",
+            "summary": null
+          },
+          "safety_identifier": null,
+          "service_tier": "default",
+          "store": true,
+          "temperature": 1,
+          "text": {
+            "format": {
+              "type": "text"
+            },
+            "verbosity": "medium"
+          },
+          "tool_choice": "auto",
+          "tools": [
+            {
+              "type": "function",
+              "description": "Generate a complete diagram as an array of Excalidraw elements. Use this when the user asks you to create, draw, or design a new diagram. Return all elements needed including shapes, text labels, and arrows/lines connecting them. Position elements with x,y coordinates and give each a unique id.",
+              "name": "generateDiagram",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "elements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Unique identifier"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "rectangle",
+                            "ellipse",
+                            "diamond",
+                            "text",
+                            "arrow",
+                            "line"
+                          ]
+                        },
+                        "x": {
+                          "type": "number",
+                          "description": "X position"
+                        },
+                        "y": {
+                          "type": "number",
+                          "description": "Y position"
+                        },
+                        "width": {
+                          "type": "number",
+                          "description": "Width"
+                        },
+                        "height": {
+                          "type": "number",
+                          "description": "Height"
+                        },
+                        "strokeColor": {
+                          "default": "#1e1e1e",
+                          "description": "Stroke color (hex)",
+                          "type": "string"
+                        },
+                        "backgroundColor": {
+                          "default": "transparent",
+                          "description": "Fill color",
+                          "type": "string"
+                        },
+                        "fillStyle": {
+                          "default": "solid",
+                          "type": "string",
+                          "enum": [
+                            "solid",
+                            "hachure",
+                            "cross-hatch"
+                          ]
+                        },
+                        "strokeWidth": {
+                          "default": 2,
+                          "type": "number"
+                        },
+                        "roughness": {
+                          "default": 1,
+                          "description": "0 for clean, 1 for sketchy",
+                          "type": "number"
+                        },
+                        "opacity": {
+                          "default": 100,
+                          "type": "number"
+                        },
+                        "text": {
+                          "description": "Text content (for text elements)",
+                          "type": "string"
+                        },
+                        "fontSize": {
+                          "default": 20,
+                          "type": "number"
+                        },
+                        "fontFamily": {
+                          "default": 1,
+                          "description": "1=Virgil, 2=Helvetica, 3=Cascadia",
+                          "type": "number"
+                        },
+                        "textAlign": {
+                          "default": "center",
+                          "type": "string",
+                          "enum": [
+                            "left",
+                            "center",
+                            "right"
+                          ]
+                        },
+                        "points": {
+                          "description": "Array of [x,y] points (for arrow/line elements). Each point is a two number array.",
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        },
+                        "startBinding": {
+                          "description": "Bind arrow start to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "endBinding": {
+                          "description": "Bind arrow end to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "type",
+                        "x",
+                        "y",
+                        "width",
+                        "height",
+                        "strokeColor",
+                        "backgroundColor",
+                        "fillStyle",
+                        "strokeWidth",
+                        "roughness",
+                        "opacity",
+                        "text",
+                        "fontSize",
+                        "fontFamily",
+                        "textAlign",
+                        "points",
+                        "startBinding",
+                        "endBinding"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Array of Excalidraw elements that make up the diagram"
+                  }
+                },
+                "required": [
+                  "elements"
+                ],
+                "additionalProperties": false
+              },
+              "strict": true
+            },
+            {
+              "type": "function",
+              "description": "Modify an existing element on the canvas by id. Pass null for any field you don't want to change. The element id must come from the current canvas state.",
+              "name": "modifyDiagram",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "elementId": {
+                    "type": "string",
+                    "description": "The id of the element to modify"
+                  },
+                  "updates": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New x position, or null"
+                      },
+                      "y": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New y position, or null"
+                      },
+                      "width": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New width, or null"
+                      },
+                      "height": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New height, or null"
+                      },
+                      "text": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New label or text content, or null"
+                      },
+                      "fontSize": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "textAlign": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "left",
+                              "center",
+                              "right"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex stroke color, or null"
+                      },
+                      "backgroundColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex fill color, or null"
+                      },
+                      "fillStyle": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "solid",
+                              "hachure",
+                              "cross-hatch"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeWidth": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "roughness": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "opacity": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "x",
+                      "y",
+                      "width",
+                      "height",
+                      "text",
+                      "fontSize",
+                      "textAlign",
+                      "strokeColor",
+                      "backgroundColor",
+                      "fillStyle",
+                      "strokeWidth",
+                      "roughness",
+                      "opacity"
+                    ],
+                    "description": "Fields to change. Set any field you don't want to touch to null.",
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "elementId",
+                  "updates"
+                ],
+                "additionalProperties": false
+              },
+              "strict": true
+            }
+          ],
+          "top_logprobs": 0,
+          "top_p": 0.98,
+          "truncation": "disabled",
+          "usage": {
+            "input_tokens": 861,
+            "input_tokens_details": {
+              "cached_tokens": 0
+            },
+            "output_tokens": 142,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1003
+          },
+          "user": null,
+          "metadata": {}
+        },
+        "messages": [
+          {
+            "role": "assistant",
+            "content": [
+              {
+                "type": "tool-call",
+                "toolCallId": "call_zNP76lyO1hHSy9pyOychEJdv",
+                "toolName": "generateDiagram",
+                "input": {
+                  "elements": [
+                    {
+                      "id": "rect-1",
+                      "type": "rectangle",
+                      "x": 100,
+                      "y": 100,
+                      "width": 240,
+                      "height": 140,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "#ff0000",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "rect-1",
+                        "focus": 0,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-1",
+                        "focus": 0,
+                        "gap": 0
+                      }
+                    }
+                  ]
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_03af9d1b0b22469d0069d4d8cc57448196adca1e7ce7945f5c"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "content": [
+              {
+                "type": "tool-result",
+                "toolCallId": "call_zNP76lyO1hHSy9pyOychEJdv",
+                "toolName": "generateDiagram",
+                "output": {
+                  "type": "json",
+                  "value": {
+                    "elements": [
+                      {
+                        "id": "rect-1",
+                        "type": "rectangle",
+                        "x": 100,
+                        "y": 100,
+                        "width": 240,
+                        "height": 140,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "#ff0000",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "rect-1",
+                          "focus": 0,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-1",
+                          "focus": 0,
+                          "gap": 0
+                        }
+                      }
+                    ]
+                  }
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_03af9d1b0b22469d0069d4d8cc57448196adca1e7ce7945f5c"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "providerMetadata": {
+        "openai": {
+          "responseId": "resp_03af9d1b0b22469d0069d4d8cbcbc4819685face641398d277",
+          "serviceTier": "default"
+        }
+      }
+    },
+    {
+      "stepNumber": 1,
+      "model": {
+        "provider": "openai.responses",
+        "modelId": "gpt-5.4-mini"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Done.",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "msg_03af9d1b0b22469d0069d4d8cf34508196bf4a1f9c20bbd448",
+              "phase": "final_answer"
+            }
+          }
+        }
+      ],
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1135,
+        "inputTokenDetails": {
+          "noCacheTokens": 1135,
+          "cacheReadTokens": 0
+        },
+        "outputTokens": 6,
+        "outputTokenDetails": {
+          "textTokens": 6,
+          "reasoningTokens": 0
+        },
+        "totalTokens": 1141,
+        "raw": {
+          "input_tokens": 1135,
+          "input_tokens_details": {
+            "cached_tokens": 0
+          },
+          "output_tokens": 6,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "reasoningTokens": 0,
+        "cachedInputTokens": 0
+      },
+      "warnings": [],
+      "request": {
+        "body": {
+          "model": "gpt-5.4-mini",
+          "input": [
+            {
+              "role": "developer",
+              "content": "You are a diagram design assistant. You help users create and modify diagrams on an Excalidraw canvas.\n\nWhen the user asks you to create a diagram, use the generateDiagram tool to produce Excalidraw elements.\n\nGuidelines for generating diagrams:\n- Give each element a unique id (e.g. \"rect-1\", \"text-1\", \"arrow-1\")\n- Position elements with reasonable spacing (at least 20px gap between elements)\n- Use rectangles for boxes/containers, ellipses for circles, diamonds for decision points\n- Add text labels inside or near shapes\n- Connect related elements with arrows\n- Use a clean layout: left to right or top to bottom\n- Default to strokeColor \"#1e1e1e\" and backgroundColor \"transparent\"\n- Set roughness to 1 for a hand-drawn look\n\nWhen the user asks to modify an element, use the modifyDiagram tool with the element's id."
+            },
+            {
+              "role": "user",
+              "content": [
+                {
+                  "type": "input_text",
+                  "text": "Draw a single rectangle with background color red"
+                }
+              ]
+            },
+            {
+              "type": "item_reference",
+              "id": "fc_03af9d1b0b22469d0069d4d8cc57448196adca1e7ce7945f5c"
+            },
+            {
+              "type": "function_call_output",
+              "call_id": "call_zNP76lyO1hHSy9pyOychEJdv",
+              "output": "{\"elements\":[{\"id\":\"rect-1\",\"type\":\"rectangle\",\"x\":100,\"y\":100,\"width\":240,\"height\":140,\"strokeColor\":\"#1e1e1e\",\"backgroundColor\":\"#ff0000\",\"fillStyle\":\"solid\",\"strokeWidth\":2,\"roughness\":1,\"opacity\":100,\"text\":\"\",\"fontSize\":20,\"fontFamily\":1,\"textAlign\":\"center\",\"points\":[],\"startBinding\":{\"elementId\":\"rect-1\",\"focus\":0,\"gap\":0},\"endBinding\":{\"elementId\":\"rect-1\",\"focus\":0,\"gap\":0}}]}"
+            }
+          ],
+          "tools": [
+            {
+              "type": "function",
+              "name": "generateDiagram",
+              "description": "Generate a complete diagram as an array of Excalidraw elements. Use this when the user asks you to create, draw, or design a new diagram. Return all elements needed including shapes, text labels, and arrows/lines connecting them. Position elements with x,y coordinates and give each a unique id.",
+              "parameters": {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "type": "object",
+                "properties": {
+                  "elements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Unique identifier"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "rectangle",
+                            "ellipse",
+                            "diamond",
+                            "text",
+                            "arrow",
+                            "line"
+                          ]
+                        },
+                        "x": {
+                          "type": "number",
+                          "description": "X position"
+                        },
+                        "y": {
+                          "type": "number",
+                          "description": "Y position"
+                        },
+                        "width": {
+                          "type": "number",
+                          "description": "Width"
+                        },
+                        "height": {
+                          "type": "number",
+                          "description": "Height"
+                        },
+                        "strokeColor": {
+                          "default": "#1e1e1e",
+                          "description": "Stroke color (hex)",
+                          "type": "string"
+                        },
+                        "backgroundColor": {
+                          "default": "transparent",
+                          "description": "Fill color",
+                          "type": "string"
+                        },
+                        "fillStyle": {
+                          "default": "solid",
+                          "type": "string",
+                          "enum": [
+                            "solid",
+                            "hachure",
+                            "cross-hatch"
+                          ]
+                        },
+                        "strokeWidth": {
+                          "default": 2,
+                          "type": "number"
+                        },
+                        "roughness": {
+                          "default": 1,
+                          "description": "0 for clean, 1 for sketchy",
+                          "type": "number"
+                        },
+                        "opacity": {
+                          "default": 100,
+                          "type": "number"
+                        },
+                        "text": {
+                          "description": "Text content (for text elements)",
+                          "type": "string"
+                        },
+                        "fontSize": {
+                          "default": 20,
+                          "type": "number"
+                        },
+                        "fontFamily": {
+                          "default": 1,
+                          "description": "1=Virgil, 2=Helvetica, 3=Cascadia",
+                          "type": "number"
+                        },
+                        "textAlign": {
+                          "default": "center",
+                          "type": "string",
+                          "enum": [
+                            "left",
+                            "center",
+                            "right"
+                          ]
+                        },
+                        "points": {
+                          "description": "Array of [x,y] points (for arrow/line elements). Each point is a two number array.",
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        },
+                        "startBinding": {
+                          "description": "Bind arrow start to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "endBinding": {
+                          "description": "Bind arrow end to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "type",
+                        "x",
+                        "y",
+                        "width",
+                        "height"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Array of Excalidraw elements that make up the diagram"
+                  }
+                },
+                "required": [
+                  "elements"
+                ],
+                "additionalProperties": false
+              }
+            },
+            {
+              "type": "function",
+              "name": "modifyDiagram",
+              "description": "Modify an existing element on the canvas by id. Pass null for any field you don't want to change. The element id must come from the current canvas state.",
+              "parameters": {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "type": "object",
+                "properties": {
+                  "elementId": {
+                    "type": "string",
+                    "description": "The id of the element to modify"
+                  },
+                  "updates": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New x position, or null"
+                      },
+                      "y": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New y position, or null"
+                      },
+                      "width": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New width, or null"
+                      },
+                      "height": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New height, or null"
+                      },
+                      "text": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New label or text content, or null"
+                      },
+                      "fontSize": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "textAlign": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "left",
+                              "center",
+                              "right"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex stroke color, or null"
+                      },
+                      "backgroundColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex fill color, or null"
+                      },
+                      "fillStyle": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "solid",
+                              "hachure",
+                              "cross-hatch"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeWidth": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "roughness": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "opacity": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "x",
+                      "y",
+                      "width",
+                      "height",
+                      "text",
+                      "fontSize",
+                      "textAlign",
+                      "strokeColor",
+                      "backgroundColor",
+                      "fillStyle",
+                      "strokeWidth",
+                      "roughness",
+                      "opacity"
+                    ],
+                    "description": "Fields to change. Set any field you don't want to touch to null.",
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "elementId",
+                  "updates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          ],
+          "tool_choice": "auto"
+        }
+      },
+      "response": {
+        "id": "resp_03af9d1b0b22469d0069d4d8ce58f8819683f26becef339b83",
+        "timestamp": "2026-04-07T10:13:34.000Z",
+        "modelId": "gpt-5.4-mini-2026-03-17",
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "9e8842a53fd785ea-BOM",
+          "connection": "keep-alive",
+          "content-encoding": "br",
+          "content-type": "application/json",
+          "date": "Tue, 07 Apr 2026 10:13:35 GMT",
+          "openai-organization": "user-9uuazzwi58e0ff8zqjhiz8uw",
+          "openai-processing-ms": "1280",
+          "openai-project": "proj_VDElpr264ycX3uszrF0xz43q",
+          "openai-version": "2020-10-01",
+          "server": "cloudflare",
+          "set-cookie": "__cf_bm=GiiyGoMHAv0mKIS_xgaqjFtBzp4N0XFeBPa3BPWjByA-1775556813.6376855-1.0.1.1-AG.GCbqAanV4Q.Ecl8GK_jUoboIxVvKyzTcUuV9kMQ0IdfdS8g5QqQckgxeaPeIWEnYipvL8sQ69_92oYzijnNxbrqAbGTB8E4cSpR2O_zYpXe4ETrFFZVyCsE6mPHdy; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Tue, 07 Apr 2026 10:43:35 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "x-content-type-options": "nosniff",
+          "x-ratelimit-limit-requests": "500",
+          "x-ratelimit-limit-tokens": "200000",
+          "x-ratelimit-remaining-requests": "499",
+          "x-ratelimit-remaining-tokens": "200000",
+          "x-ratelimit-reset-requests": "120ms",
+          "x-ratelimit-reset-tokens": "0s",
+          "x-request-id": "req_d80969cf48b042d18455e5cdf79dc863"
+        },
+        "body": {
+          "id": "resp_03af9d1b0b22469d0069d4d8ce58f8819683f26becef339b83",
+          "object": "response",
+          "created_at": 1775556814,
+          "status": "completed",
+          "background": false,
+          "billing": {
+            "payer": "developer"
+          },
+          "completed_at": 1775556815,
+          "error": null,
+          "frequency_penalty": 0,
+          "incomplete_details": null,
+          "instructions": null,
+          "max_output_tokens": null,
+          "max_tool_calls": null,
+          "model": "gpt-5.4-mini-2026-03-17",
+          "output": [
+            {
+              "id": "msg_03af9d1b0b22469d0069d4d8cf34508196bf4a1f9c20bbd448",
+              "type": "message",
+              "status": "completed",
+              "content": [
+                {
+                  "type": "output_text",
+                  "annotations": [],
+                  "logprobs": [],
+                  "text": "Done."
+                }
+              ],
+              "phase": "final_answer",
+              "role": "assistant"
+            }
+          ],
+          "parallel_tool_calls": true,
+          "presence_penalty": 0,
+          "previous_response_id": null,
+          "prompt_cache_key": null,
+          "prompt_cache_retention": null,
+          "reasoning": {
+            "effort": "none",
+            "summary": null
+          },
+          "safety_identifier": null,
+          "service_tier": "default",
+          "store": true,
+          "temperature": 1,
+          "text": {
+            "format": {
+              "type": "text"
+            },
+            "verbosity": "medium"
+          },
+          "tool_choice": "auto",
+          "tools": [
+            {
+              "type": "function",
+              "description": "Generate a complete diagram as an array of Excalidraw elements. Use this when the user asks you to create, draw, or design a new diagram. Return all elements needed including shapes, text labels, and arrows/lines connecting them. Position elements with x,y coordinates and give each a unique id.",
+              "name": "generateDiagram",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "elements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Unique identifier"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "rectangle",
+                            "ellipse",
+                            "diamond",
+                            "text",
+                            "arrow",
+                            "line"
+                          ]
+                        },
+                        "x": {
+                          "type": "number",
+                          "description": "X position"
+                        },
+                        "y": {
+                          "type": "number",
+                          "description": "Y position"
+                        },
+                        "width": {
+                          "type": "number",
+                          "description": "Width"
+                        },
+                        "height": {
+                          "type": "number",
+                          "description": "Height"
+                        },
+                        "strokeColor": {
+                          "default": "#1e1e1e",
+                          "description": "Stroke color (hex)",
+                          "type": "string"
+                        },
+                        "backgroundColor": {
+                          "default": "transparent",
+                          "description": "Fill color",
+                          "type": "string"
+                        },
+                        "fillStyle": {
+                          "default": "solid",
+                          "type": "string",
+                          "enum": [
+                            "solid",
+                            "hachure",
+                            "cross-hatch"
+                          ]
+                        },
+                        "strokeWidth": {
+                          "default": 2,
+                          "type": "number"
+                        },
+                        "roughness": {
+                          "default": 1,
+                          "description": "0 for clean, 1 for sketchy",
+                          "type": "number"
+                        },
+                        "opacity": {
+                          "default": 100,
+                          "type": "number"
+                        },
+                        "text": {
+                          "description": "Text content (for text elements)",
+                          "type": "string"
+                        },
+                        "fontSize": {
+                          "default": 20,
+                          "type": "number"
+                        },
+                        "fontFamily": {
+                          "default": 1,
+                          "description": "1=Virgil, 2=Helvetica, 3=Cascadia",
+                          "type": "number"
+                        },
+                        "textAlign": {
+                          "default": "center",
+                          "type": "string",
+                          "enum": [
+                            "left",
+                            "center",
+                            "right"
+                          ]
+                        },
+                        "points": {
+                          "description": "Array of [x,y] points (for arrow/line elements). Each point is a two number array.",
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        },
+                        "startBinding": {
+                          "description": "Bind arrow start to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "endBinding": {
+                          "description": "Bind arrow end to an element",
+                          "type": "object",
+                          "properties": {
+                            "elementId": {
+                              "type": "string"
+                            },
+                            "focus": {
+                              "type": "number"
+                            },
+                            "gap": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "elementId",
+                            "focus",
+                            "gap"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "type",
+                        "x",
+                        "y",
+                        "width",
+                        "height",
+                        "strokeColor",
+                        "backgroundColor",
+                        "fillStyle",
+                        "strokeWidth",
+                        "roughness",
+                        "opacity",
+                        "text",
+                        "fontSize",
+                        "fontFamily",
+                        "textAlign",
+                        "points",
+                        "startBinding",
+                        "endBinding"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Array of Excalidraw elements that make up the diagram"
+                  }
+                },
+                "required": [
+                  "elements"
+                ],
+                "additionalProperties": false
+              },
+              "strict": true
+            },
+            {
+              "type": "function",
+              "description": "Modify an existing element on the canvas by id. Pass null for any field you don't want to change. The element id must come from the current canvas state.",
+              "name": "modifyDiagram",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "elementId": {
+                    "type": "string",
+                    "description": "The id of the element to modify"
+                  },
+                  "updates": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New x position, or null"
+                      },
+                      "y": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New y position, or null"
+                      },
+                      "width": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New width, or null"
+                      },
+                      "height": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New height, or null"
+                      },
+                      "text": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "New label or text content, or null"
+                      },
+                      "fontSize": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "textAlign": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "left",
+                              "center",
+                              "right"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex stroke color, or null"
+                      },
+                      "backgroundColor": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "Hex fill color, or null"
+                      },
+                      "fillStyle": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "solid",
+                              "hachure",
+                              "cross-hatch"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "strokeWidth": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "roughness": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "opacity": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "x",
+                      "y",
+                      "width",
+                      "height",
+                      "text",
+                      "fontSize",
+                      "textAlign",
+                      "strokeColor",
+                      "backgroundColor",
+                      "fillStyle",
+                      "strokeWidth",
+                      "roughness",
+                      "opacity"
+                    ],
+                    "description": "Fields to change. Set any field you don't want to touch to null.",
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "elementId",
+                  "updates"
+                ],
+                "additionalProperties": false
+              },
+              "strict": true
+            }
+          ],
+          "top_logprobs": 0,
+          "top_p": 0.98,
+          "truncation": "disabled",
+          "usage": {
+            "input_tokens": 1135,
+            "input_tokens_details": {
+              "cached_tokens": 0
+            },
+            "output_tokens": 6,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1141
+          },
+          "user": null,
+          "metadata": {}
+        },
+        "messages": [
+          {
+            "role": "assistant",
+            "content": [
+              {
+                "type": "tool-call",
+                "toolCallId": "call_zNP76lyO1hHSy9pyOychEJdv",
+                "toolName": "generateDiagram",
+                "input": {
+                  "elements": [
+                    {
+                      "id": "rect-1",
+                      "type": "rectangle",
+                      "x": 100,
+                      "y": 100,
+                      "width": 240,
+                      "height": 140,
+                      "strokeColor": "#1e1e1e",
+                      "backgroundColor": "#ff0000",
+                      "fillStyle": "solid",
+                      "strokeWidth": 2,
+                      "roughness": 1,
+                      "opacity": 100,
+                      "text": "",
+                      "fontSize": 20,
+                      "fontFamily": 1,
+                      "textAlign": "center",
+                      "points": [],
+                      "startBinding": {
+                        "elementId": "rect-1",
+                        "focus": 0,
+                        "gap": 0
+                      },
+                      "endBinding": {
+                        "elementId": "rect-1",
+                        "focus": 0,
+                        "gap": 0
+                      }
+                    }
+                  ]
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_03af9d1b0b22469d0069d4d8cc57448196adca1e7ce7945f5c"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "content": [
+              {
+                "type": "tool-result",
+                "toolCallId": "call_zNP76lyO1hHSy9pyOychEJdv",
+                "toolName": "generateDiagram",
+                "output": {
+                  "type": "json",
+                  "value": {
+                    "elements": [
+                      {
+                        "id": "rect-1",
+                        "type": "rectangle",
+                        "x": 100,
+                        "y": 100,
+                        "width": 240,
+                        "height": 140,
+                        "strokeColor": "#1e1e1e",
+                        "backgroundColor": "#ff0000",
+                        "fillStyle": "solid",
+                        "strokeWidth": 2,
+                        "roughness": 1,
+                        "opacity": 100,
+                        "text": "",
+                        "fontSize": 20,
+                        "fontFamily": 1,
+                        "textAlign": "center",
+                        "points": [],
+                        "startBinding": {
+                          "elementId": "rect-1",
+                          "focus": 0,
+                          "gap": 0
+                        },
+                        "endBinding": {
+                          "elementId": "rect-1",
+                          "focus": 0,
+                          "gap": 0
+                        }
+                      }
+                    ]
+                  }
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_03af9d1b0b22469d0069d4d8cc57448196adca1e7ce7945f5c"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "assistant",
+            "content": [
+              {
+                "type": "text",
+                "text": "Done.",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "msg_03af9d1b0b22469d0069d4d8cf34508196bf4a1f9c20bbd448",
+                    "phase": "final_answer"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "providerMetadata": {
+        "openai": {
+          "responseId": "resp_03af9d1b0b22469d0069d4d8ce58f8819683f26becef339b83",
+          "serviceTier": "default"
+        }
+      }
+    }
+  ]
+}
