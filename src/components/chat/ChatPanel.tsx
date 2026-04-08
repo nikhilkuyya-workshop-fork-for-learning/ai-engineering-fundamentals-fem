@@ -2,14 +2,26 @@ import { useState } from "react";
 import MessageList from "./MessageList";
 import type { Message } from "./types";
 import "./chat.css";
+import { UIMessage } from "ai";
 
-export default function ChatPanel() {
-  const [messages] = useState<Message[]>([]);
+
+interface ChatPanelProps {
+  messages: UIMessage[];
+  sendMessage: (message: { role: 'user', parts: { type: "text", text: string }[] }) => void;
+  status: string;
+}
+export default function ChatPanel({messages, sendMessage, status}: ChatPanelProps) {
   const [input, setInput] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if(!input.trim()) return;
     // Non-functional — wired up in lesson 3
+    sendMessage({
+      role: 'user',
+      parts: [{ type: 'text', text: input}]
+    });
+    setInput('')
   };
 
   return (

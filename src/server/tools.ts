@@ -14,7 +14,7 @@ export const tools = {
                     x: z.number().describe("x starting position"),
                     y: z.number().describe("y starting position"),
                     width: z.number().describe("Width of element"),
-                    height: z.number().describe("Height of element"),
+                    height: z.number().describe("Height of element set atleast 10px"),
                     strokeColor: z.string().default("#1e1e1e").describe("stroke color of the element"),
                     backgroundColor: z.string().default("transparent").describe("background color of element"),
                     fillStyle: z.enum(FILLSTYLE).default("solid").describe("fill style"),
