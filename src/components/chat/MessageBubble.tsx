@@ -1,6 +1,4 @@
-import type { UIMessage } from "ai";
 import MarkdownRenderer from "./MarkdownRenderer";
-import type { Message } from "./types";
 import { type UIMessage } from 'ai'
 import ToolStatus from "../streaming/ToolStatus";
 import '../streaming/streaming.css';
