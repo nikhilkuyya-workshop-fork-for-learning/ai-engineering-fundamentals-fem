@@ -15,5 +15,5 @@
     "noFallthroughCasesInSwitch": true,
     "types": ["@cloudflare/workers-types"]
   },
-  "include": ["src/worker.ts"]
+  "exclude": ["src/worker.ts", "src/server/*.(ts|tsx)", "src/server/**/*.(ts|tsx)"]
 }

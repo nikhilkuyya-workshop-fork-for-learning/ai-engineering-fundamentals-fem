@@ -1,3 +1,4 @@
+
 export interface BaseElement {
     id: string;
     x: number;
@@ -7,7 +8,7 @@ export interface BaseElement {
 
     strokeColor: string;
     backgroundColor: string;
-    fillStyle: "solid" | "hachure" | "cross-hatcher";
+    fillStyle: 'solid' | 'cross-hatcher' | 'hachure';
     
     strokeWidth: number;
     roughness: number;
