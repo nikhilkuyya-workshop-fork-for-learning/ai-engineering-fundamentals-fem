@@ -10,10 +10,6 @@ import { useAgentChat } from "@cloudflare/ai-chat/react";
 import Canvas from "./components/Canvas";
 import ChatPanel from "./components/chat/ChatPanel";
 import "./App.css";
-import { useAgent } from 'agents/react';
-import { useAgentChat } from "@cloudflare/ai-chat/react";
-import { convertToExcalidrawElements } from "@excalidraw/excalidraw";
-const sessionId = crypto.randomUUID();
 
 // One agent instance per page load. The canvas state lives only in the
 // browser, so persisting chat history across refreshes would leave a dead
