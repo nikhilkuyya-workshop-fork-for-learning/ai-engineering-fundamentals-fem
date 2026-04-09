@@ -1,8 +1,7 @@
 import { useState } from "react";
+import type { UIMessage } from "ai";
 import MessageList from "./MessageList";
-import type { Message } from "./types";
 import "./chat.css";
-import { UIMessage } from "ai";
 
 
 interface ChatPanelProps {
@@ -24,6 +23,8 @@ export default function ChatPanel({messages, sendMessage, status}: ChatPanelProp
     setInput('')
   };
 
+  const isStreaming = status === "submitted" || status === "streaming";
+
   return (
     <div className="chat-panel">
       <div className="chat-header">
@@ -37,9 +38,14 @@ export default function ChatPanel({messages, sendMessage, status}: ChatPanelProp
           placeholder="Describe a diagram..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          disabled={isStreaming}
         />
-        <button type="submit" className="chat-send-btn">
-          Send
+        <button
+          type="submit"
+          className="chat-send-btn"
+          disabled={isStreaming || !input.trim()}
+        >
+          {isStreaming ? "..." : "Send"}
         </button>
       </form>
     </div>
